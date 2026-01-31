@@ -1,0 +1,25 @@
+.camera-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+video {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #1e293b;
+  background: black;
+}
+
+.success {
+  color: #22c55e;
+  font-weight: 600;
+}
+
+button {
+  background: #22c55e;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}

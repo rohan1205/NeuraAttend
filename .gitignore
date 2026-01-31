@@ -1,0 +1,43 @@
+# --- Python & System ---
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+
+# --- Environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- VS Code & IDE ---
+.vscode/
+.history/
+*.code-workspace
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Machine Learning / AI (Specific for NeuraAttend) ---
+# Ignore large dataset folders (replace 'data/' with your actual data folder name)
+data/
+datasets/
+
+# Ignore large model checkpoints or weights
+*.h5
+*.pth
+*.pt
+*.onnx
+*.weights
+*.pkl
+models/
+checkpoints/
+
+# --- Distribution / Logs ---
+dist/
+build/
+*.egg-info/
+*.log
